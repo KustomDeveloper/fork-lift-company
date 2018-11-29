@@ -1,4 +1,25 @@
-<?php get_header(); ?>
+<?php 
+/*
+Template Name: Home
+*/
+
+get_header(); ?>
+
+    <div class="row top-section">
+        <div class="col topcontent">
+            <h1>Forklifts</h1>
+            <p>We get our inventory from several sources. 
+            Once the new inventory arrives to our facilities, a specialized team will inspect each unit. 
+            An inspection report is prepared for potential buyers for your convenience. 
+            Once the equipment is purchased, we can arrange domestic or non-domestic shipping paperwork for you.
+            </p>
+            <button type="button" class="btn btn-lg btn-primary cta-btn">See Inventory</button>
+        </div><!-- .col -->
+
+        <div class="col">
+            <img src="<?php bloginfo('stylesheet_directory'); ?>/images/forklift.png" />
+        </div><!-- .col -->
+    </div>
 
     <div class="row equipment-slider">
         <div><img src="#" alt="photo 1"></div>
@@ -22,29 +43,5 @@
             </p>
         </div>
     </div><!-- .about-section -->
-
-    <div class="row blog-section">
-        <div class="col-4">
-
-        </div>
-        <div class="col-4">
-
-        </div>
-        <div class="col-4">
-
-        </div>
-    </div><!-- .blog-section -->
-
-    <div class="row tax-section">
-        <div class="col">
-            <p><?php _e( 'Section 179 Tax Deductions', 'jdequipment' ); ?></p>
-            <h2><?php _e( 'Take Advantage Now', 'jdequipment' ); ?></h2>
-            <p><?php _e( 'The bonus depreciation deduction has increased to 100%. 
-                Businesses of all sizes can depreciate 100% of the cost of new and used acquired equipment 
-                retroactive to Sept. 27th, 2017 and good through 2022.', 'jdequipment' ); ?>
-            </p>
-            <button type="button" class="btn btn-lg btn-primary">Primary button</button>
-        </div>
-    </div><!-- .blog-section -->
 
 <?php get_footer(); ?>

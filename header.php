@@ -19,11 +19,11 @@
                 </div>
 
                 <div class="col-6">
-                  <p class="topcta"><?php _e( 'Call Us Today', 'jdequipment' ); ?><br/>
+                    <div class="topcta"><p><?php _e( 'Call Us Today', 'jdequipment' ); ?></p>
                         <a href="tel:8006216734" class="topphone">
                             <?php _e( '800.621.6734', 'jdequipment' ); ?>
                         </a>
-                  </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -35,19 +35,12 @@
                 <?php wp_nav_menu(array( 'theme_location' => 'main_menu' )); ?>
             </div><!-- .col-10 -->
             <div class="col-2">
-                <div class="language-selector"></div>
+                <div class="language-selector"><?php _e( 'English', 'jdequipment' ); ?> 
+                    <span><img src="<?php bloginfo('stylesheet_directory');?>/images/selector-btn.png"></span>
+                </div>
             </div><!-- .col-2 -->
         </div>
     </div>
 
     <div class="wrapper">
         <div class="container-fluid">
-            <div class="row slider">
-                <ul>
-                    <li><img src="#" alt="photo 1"></li>
-                    <li><img src="#" alt="photo 2"></li>
-                </ul>
-            </div>
-        
-
-

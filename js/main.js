@@ -1,4 +1,7 @@
 
+
+
+
 //Slick Carousel
 
 $('.equipment-slider').slick({
