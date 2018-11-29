@@ -164,17 +164,29 @@ h2 {
     display:block;
 }
 
+/*About Section*/
+.row.about-section {
+    padding:20px 18px;
+}
+
 /*Blog Section*/
 .blog-section img {
     width:100%;
     max-width:340px;
     height:auto;
+    margin:0 auto;
+    display:block;
+}
+.blog-section h2 {
+    display:block;
+    width:100%;
+    padding:20px 0 20px 30px;
 }
 
 /*Tax Section*/
 .tax-section .col {
     background:#EEEEEE; 
-    padding:20px;  
+    padding:30px;  
 }
 .tax-section .col h2, .tax-section .col p {
     text-align:center;  
@@ -262,11 +274,74 @@ footer .copyright {
    float:right;
 }
 footer .container-fluid, footer .col-4 {
-    padding:0;
+    /* padding:0; */
+    margin:0 auto;
+}
+footer input[type="email"] {
+    width:187px;
+    height:37px;
+    background:#fff;
+    border:none;
+    box-shadow:none;
+    color:#ccc;
+    font-weight:bold;
+    padding: 0 20px 0;
+}
+footer input[type="submit"] {
+    width:103px;
+    height:37px;
+    background:#e4903a;
+    border:none;
+    box-shadow:none;
+    color:#fff;
+    font-weight:bold;
 }
 .copyrightcontainer {
     margin-top:20px;
     text-align: right;
     display: block;
 }
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        max-width:200px;
+    }
+    .topcta p {
+        font-size: 13px;
+    }
+    .topcta a {
+        color: #f7a216;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .head-wrapper .container-fluid {
+        height: 85px;
+    }
+    .top-section .topcontent {
+        padding: 20px 30px;
+    }
+    .top-section .col img {
+        max-width: 400px;
+        margin-left: -20px;
+    }
+    .col-6, .col-4, .col {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .row.about-section {
+        padding: 0;
+    }
+    .blog-section h2 {
+        display: block;
+        width: 100%;
+        padding: 16px;
+    }
+}
+
+
+
+
+
+
 
